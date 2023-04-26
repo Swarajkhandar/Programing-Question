@@ -27,3 +27,5 @@ In that when I run the program I get an error the error is
       
       BufferedReader it's a another methon to read the input argument from the user
       but to use Bufferedreader first we have initialize the InputSreanReader class also .
+      
+      *** this class only read the Character not a integer
