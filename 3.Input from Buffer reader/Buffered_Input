@@ -1,0 +1,29 @@
+import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+public class Main
+{
+	public static void main(String[] args) {
+	try{
+		
+		 InputStreamReader r=new InputStreamReader(System.in);    
+    BufferedReader br=new BufferedReader(r);            
+    System.out.println("Enter your name");    
+    String name=br.readLine();    
+    System.out.println("Welcome "+name);  
+	  }
+	catch(IOException e)
+   {
+	    
+	 }
+  }
+}
+
+In that when I run the program I get an error the error is 
+(  unreported exception IOException; must be caught or declared to be thrown)  for below line
+	    String name = re.readLine();
+      then I used the try block after that the error is resolved
+      
+      BufferedReader it's a another methon to read the input argument from the user
+      but to use Bufferedreader first we have initialize the InputSreanReader class also .
